@@ -16,7 +16,7 @@ namespace ConsoleApp.Fonction
                     Console.WriteLine("Conseil d'ami, fais des dons pour réduire les impôts");
                     break;
 
-                case bool condition1 when anualNetSalary >= 30000.0 || anualNetSalary <= 40000.0:
+                case bool condition1 when anualNetSalary >= 30000.0 && anualNetSalary <= 40000.0:
                     Console.WriteLine("Faut faire un Bac+5 en Dév");
                     break;
 
